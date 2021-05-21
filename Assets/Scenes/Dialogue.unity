@@ -285,7 +285,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -633,8 +633,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 817454386}
+  leftSpeaker: {fileID: 750477115}
+  rightSpeaker: {fileID: 2107808103}
   diaText: {fileID: 567352551}
-  testDia: {fileID: 0}
+  dialogueObj: {fileID: 11400000, guid: 0975cfca358aeea4db228c77ac0b0b60, type: 2}
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  darkColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
 --- !u!114 &1028031188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -766,7 +770,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 695.49, y: 0}
-  m_SizeDelta: {x: 249.0187, y: 249.0187}
+  m_SizeDelta: {x: 249.0187, y: 249.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2107808103
 MonoBehaviour:

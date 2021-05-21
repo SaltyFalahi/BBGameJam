@@ -13,5 +13,21 @@ MonoBehaviour:
   m_Name: TestObj
   m_EditorClassIdentifier: 
   dialogueArr:
-  - text: I am bitch boi!
-    image: {fileID: 0}
+  - isLeftSpeaker: 1
+    text: 'I am bitch boi!
+
+      Bowwwwwwww'
+  - isLeftSpeaker: 0
+    text: 'I am feta futa - bitch boi too
+
+      yeah no
+
+      maybe later'
+  - isLeftSpeaker: 1
+    text: Lmao
+  - isLeftSpeaker: 1
+    text: dfbhjssaCDPOJfiihbskDJGXLFfGKJB>xssdjkg.,fB
+  - isLeftSpeaker: 0
+    text: Mood
+  LeftSpeaker: {fileID: 21300000, guid: b624b089b487e86459830995277cbb87, type: 3}
+  RightSpeaker: {fileID: 21300000, guid: fbbcc53a3782c45498670abaf3b898b5, type: 3}

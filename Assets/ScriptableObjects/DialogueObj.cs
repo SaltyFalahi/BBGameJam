@@ -5,13 +5,13 @@ using UnityEngine.UI;
 public class DialogueObj : ScriptableObject
 {
     public Lines[] dialogueArr;
+    public Sprite LeftSpeaker;
+    public Sprite RightSpeaker;
 }
 
 [System.Serializable]
 public class Lines
 {
-    public Sprite image;
-
     public bool isLeftSpeaker;
 
     [TextArea(2, 10)]
