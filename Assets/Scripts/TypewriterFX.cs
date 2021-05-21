@@ -6,7 +6,11 @@ using TMPro;
 public class TypewriterFX : MonoBehaviour
 {
     [SerializeField]
+    bool isSkipping;
+
+    [SerializeField]
     float typeSpeed = 0;
+    
     public Coroutine Run(string textToType, TMP_Text diaText)
     {
         return StartCoroutine(TypeText(textToType, diaText));
@@ -27,14 +31,21 @@ public class TypewriterFX : MonoBehaviour
 
             diaText.text = textToType.Substring(0, charIndex);
 
-            if (Input.GetMouseButtonDown(0))
+            if (isSkipping)
             {
                 charIndex = textToType.Length;
             }
+
+            isSkipping = false;
 
             yield return null;
         }
 
         diaText.text = textToType;
+    }
+
+    public void SkipDialogue()
+    {
+        isSkipping = true;
     }
 }

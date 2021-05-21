@@ -10,28 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b456e35a5826b54f9f921a006b0210b, type: 3}
-  m_Name: TestObj
+  m_Name: TestObj2
   m_EditorClassIdentifier: 
   dialogueArr:
   - isLeftSpeaker: 1
-    text: 'I am a dumb boi!
-
-      Hngngngngngnngngngnnggngngng'
+    text: Ayo, this boi be swingin!
   - isLeftSpeaker: 0
-    text: 'I am feta futa - a boi too
-
-      yeah no
-
-      maybe later'
+    text: You know what that means, dontcha, boi?
   - isLeftSpeaker: 1
-    text: 'Lmao
-
-      Understandable
-
-      Have a nice d-'
-  - isLeftSpeaker: 1
-    text: AHHHHHHHHHHSOGHHUSHGHSGHBKDFHGDKSUJBFDBBDIKGBBSKJFGBLSBGBVLGLB
+    text: What?
   - isLeftSpeaker: 0
-    text: Mood
+    text: You know what sound it'll make when you hit stuff with it?
+  - isLeftSpeaker: 1
+    text: You mean a clang?
+  - isLeftSpeaker: 0
+    text: No, no.
+  - isLeftSpeaker: 0
+    text: Wack
   LeftSpeaker: {fileID: 21300000, guid: b624b089b487e86459830995277cbb87, type: 3}
-  RightSpeaker: {fileID: 21300000, guid: fbbcc53a3782c45498670abaf3b898b5, type: 3}
+  RightSpeaker: {fileID: 21300000, guid: d37c2c412c7ee594dae909cf5f36fa8d, type: 3}
