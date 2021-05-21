@@ -24,9 +24,13 @@ MonoBehaviour:
 
       maybe later'
   - isLeftSpeaker: 1
-    text: Lmao
+    text: 'Lmao
+
+      Understandable
+
+      Have a nice d-'
   - isLeftSpeaker: 1
-    text: dfbhjssaCDPOJfiihbskDJGXLFfGKJB>xssdjkg.,fB
+    text: AHHHHHHHHHHSOGHHUSHGHSGHBKDFHGDKSUJBFDBBDIKGBBSKJFGBLSBGBVLGLB
   - isLeftSpeaker: 0
     text: Mood
   LeftSpeaker: {fileID: 21300000, guid: b624b089b487e86459830995277cbb87, type: 3}

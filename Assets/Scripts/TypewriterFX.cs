@@ -27,6 +27,11 @@ public class TypewriterFX : MonoBehaviour
 
             diaText.text = textToType.Substring(0, charIndex);
 
+            if (Input.GetMouseButtonDown(0))
+            {
+                charIndex = textToType.Length;
+            }
+
             yield return null;
         }
 
