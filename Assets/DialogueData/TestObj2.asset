@@ -17,15 +17,5 @@ MonoBehaviour:
     text: Ayo, this boi be swingin!
   - isLeftSpeaker: 0
     text: You know what that means, dontcha, boi?
-  - isLeftSpeaker: 1
-    text: What?
-  - isLeftSpeaker: 0
-    text: You know what sound it'll make when you hit stuff with it?
-  - isLeftSpeaker: 1
-    text: You mean a clang?
-  - isLeftSpeaker: 0
-    text: No, no.
-  - isLeftSpeaker: 0
-    text: Wack
   LeftSpeaker: {fileID: 21300000, guid: b624b089b487e86459830995277cbb87, type: 3}
   RightSpeaker: {fileID: 21300000, guid: d37c2c412c7ee594dae909cf5f36fa8d, type: 3}

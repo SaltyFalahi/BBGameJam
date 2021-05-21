@@ -84,11 +84,10 @@ public class Dialogue : MonoBehaviour
         CloseDialogueBox();
     }
 
-    public void InteractinWithNPC(int nPCId)
+    public void InteractWithNPC(int nPCId) //for buttons to test on PC
     {
         if (nPC1Btn.activeInHierarchy && nPCId == 0)
         {
-            Debug.Log("Hi");
             dialogueScriptableObj = nPCS[nPCId].GetComponent<DialogueInteractable>().myDialogueScriptableObj;
             ShowDialogue(dialogueScriptableObj);
             SetSpeaker();

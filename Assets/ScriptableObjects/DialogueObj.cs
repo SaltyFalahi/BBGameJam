@@ -1,10 +1,12 @@
 using UnityEngine;
+using System.Collections.Generic;
 using UnityEngine.UI;
 
 [CreateAssetMenu(menuName = "GameDialogues/DialogueObj")]
 public class DialogueObj : ScriptableObject
 {
     public Lines[] dialogueArr;
+
     public Sprite LeftSpeaker;
     public Sprite RightSpeaker;
 }
