@@ -8,7 +8,7 @@ public class Dialogue : MonoBehaviour
 {
 
     [SerializeField]
-    GameObject dialogueBox, nPC1Btn, nPC2Btn;
+    GameObject dialogueBox, nPC1Btn, nPC2Btn, skipBtn;
 
     DialogueObj dialogueScriptableObj;
 
@@ -84,22 +84,20 @@ public class Dialogue : MonoBehaviour
         CloseDialogueBox();
     }
 
-    public void InteractWithNPC1()
+    public void InteractinWithNPC(int nPCId)
     {
-        if (nPC1Btn.activeInHierarchy)
+        if (nPC1Btn.activeInHierarchy && nPCId == 0)
         {
-            dialogueScriptableObj = nPCS[0].GetComponent<DialogueInteractable>().myDialogueScriptableObj;
+            Debug.Log("Hi");
+            dialogueScriptableObj = nPCS[nPCId].GetComponent<DialogueInteractable>().myDialogueScriptableObj;
             ShowDialogue(dialogueScriptableObj);
             SetSpeaker();
             nPC2Btn.SetActive(false);
         }
-    }
 
-    public void InteractWithNPC2()
-    {
-        if (nPC2Btn.activeInHierarchy)
+        if (nPC2Btn.activeInHierarchy && nPCId == 1)
         {
-            dialogueScriptableObj = nPCS[1].GetComponent<DialogueInteractable>().myDialogueScriptableObj;
+            dialogueScriptableObj = nPCS[nPCId].GetComponent<DialogueInteractable>().myDialogueScriptableObj;
             ShowDialogue(dialogueScriptableObj);
             SetSpeaker();
             nPC1Btn.SetActive(false);

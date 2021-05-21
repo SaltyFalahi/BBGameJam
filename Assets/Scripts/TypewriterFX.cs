@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class TypewriterFX : MonoBehaviour
 {
+    [SerializeField]
+    Button skipBtn;
+
     [SerializeField]
     bool isSkipping;
 
@@ -34,6 +38,15 @@ public class TypewriterFX : MonoBehaviour
             if (isSkipping)
             {
                 charIndex = textToType.Length;
+            }
+
+            if (charIndex == textToType.Length)
+            {
+                skipBtn.interactable = false;
+            }
+            else
+            {
+                skipBtn.interactable = true;
             }
 
             isSkipping = false;
