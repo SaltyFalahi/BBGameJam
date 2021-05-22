@@ -13,9 +13,18 @@ MonoBehaviour:
   m_Name: TestObj2
   m_EditorClassIdentifier: 
   dialogueArr:
-  - isLeftSpeaker: 1
-    text: Ayo, this boi be swingin!
   - isLeftSpeaker: 0
-    text: You know what that means, dontcha, boi?
+    text: 'We have a patient who''s having trouble breathing, non-stop coughs with
+      phlegm, fever. '
+  - isLeftSpeaker: 1
+    text: 'All those symptoms sound like pneumonia, we need a blood test and a chest
+      x-ray and i want the results for this asap. '
+  - isLeftSpeaker: 0
+    text: 'Yes,sir  and also you are needed in room 6 for a patient who is 16 who
+      has had heart arrhythmia and we need to discuss the next step with him and
+      his family. '
+  - isLeftSpeaker: 1
+    text: Alright please get his parents no the phone for me asking them to come
+      to the hospital, ill take care of the kid
   LeftSpeaker: {fileID: 21300000, guid: b624b089b487e86459830995277cbb87, type: 3}
   RightSpeaker: {fileID: 21300000, guid: d37c2c412c7ee594dae909cf5f36fa8d, type: 3}
