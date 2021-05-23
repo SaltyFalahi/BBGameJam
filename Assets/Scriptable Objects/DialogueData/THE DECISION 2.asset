@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b456e35a5826b54f9f921a006b0210b, type: 3}
+  m_Name: THE DECISION 2
+  m_EditorClassIdentifier: 
+  dialogueArr:
+  - isLeftSpeaker: 1
+    text: "Guy: \nJAMIE!!!"
+  - isLeftSpeaker: 0
+    text: "Jamie: \nDr. Guy?? "
+  - isLeftSpeaker: 1
+    text: "Guy: \nWhat are you doing!? I thought we discussed this"
+  - isLeftSpeaker: 0
+    text: "Jamie: \nIt\u2019s too hard, It feels so wrong Doc. I cant be here without
+      her... "
+  - isLeftSpeaker: 1
+    text: "Guy: \nThink of everyone who cares about u Jamie, think of what your leaving
+      behind "
+  - isLeftSpeaker: 0
+    text: "Jamie: \nI'm an old man Guy, I've lived my life...\nI decided many years
+      ago that the only reason i am alive now is for my wife."
+  - isLeftSpeaker: 1
+    text: 'Guy:
+
+      Do you really think this is how your wife would want you to
+      go. '
+  - isLeftSpeaker: 1
+    text: 'Guy:
+
+      I remember your wife, she was a woman of great faith and someone
+      who loved life... this is not something she would want for you.'
+  - isLeftSpeaker: 0
+    text: "Jamie: \n... but she's the love of my life. There is no life without love... "
+  - isLeftSpeaker: 1
+    text: "Guy: \nShe will still be the love of your life and when you see her again,
+      she'll know you did the most difficult thing in your life for her ...living"
+  - isLeftSpeaker: 0
+    text: "Jamie: \nMost people die for the ones they love..."
+  - isLeftSpeaker: 1
+    text: "Guy: \nEXACTLY they do something so generic but you get to do something
+      special...something she actually wanted. "
+  - isLeftSpeaker: 0
+    text: 'Jamie:
+
+      What will i do without her...'
+  - isLeftSpeaker: 1
+    text: 'Guy:
+
+      Sir you will spend your days playing chess with me as we always
+      do'
+  - isLeftSpeaker: 0
+    text: 'Jamie:
+
+      So i''d be holding a young man from living his life'
+  - isLeftSpeaker: 1
+    text: "Guy: \nYou talk like we're strangers Mr.Jamie, the entire time you have
+      been here you have been like a dad to me... A dad i never got to have because
+      mine died when i was very young. "
+  - isLeftSpeaker: 1
+    text: "Guy:\nI care about you Jamie... \nThats why I'm here instead of with my
+      wife who is in labour right now."
+  - isLeftSpeaker: 0
+    text: "Jamie: \n*crying*"
+  - isLeftSpeaker: 0
+    text: 'Jamie:
+
+      You are very convincing young man... '
+  - isLeftSpeaker: 0
+    text: 'Jamie:
+
+      ... but an old man cant keep feeling this much pain without
+      feeling dead already...'
+  - isLeftSpeaker: 0
+    text: 'Jamie:
+
+      Im sorry'
+  - isLeftSpeaker: 1
+    text: 'Guy:
+
+      NO!'
+  LeftSpeaker: {fileID: 0}
+  RightSpeaker: {fileID: 0}
