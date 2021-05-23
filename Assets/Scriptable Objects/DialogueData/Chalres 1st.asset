@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b456e35a5826b54f9f921a006b0210b, type: 3}
+  m_Name: Chalres 1st
+  m_EditorClassIdentifier: 
+  dialogueArr:
+  - isLeftSpeaker: 1
+    text: 'Guy: Hello Charles, how are we feeling today?'
+  - isLeftSpeaker: 0
+    text: 'Charles: Well today I learned i can hold my breath for 10 minutes before
+      feeling like I''ll pass out'
+  - isLeftSpeaker: 1
+    text: 'Guy: haha well i''m glad you can add a little humour to your condition,
+      it shows good health'
+  - isLeftSpeaker: 0
+    text: "Charles: yup i'm definitely the healthiest person out here\u2026"
+  - isLeftSpeaker: 1
+    text: "Guy: Talk to me Charles\u2026"
+  - isLeftSpeaker: 0
+    text: "Charles: I\u2019m scared\u2026 I feel so\u2026 powerless "
+  - isLeftSpeaker: 1
+    text: "Guy: I know, it can be easy going through what you are, but you have to
+      understand that your fear, if gone above a certain limit can worsen your condition.
+      I\u2019ve seen you have panic attacks that increase your heart rate to dangerous
+      levels. I've also seen you battle your condition and still smile like 1 small
+      disease has nothing to do with the rest of your life. That energy will pull
+      you through."
+  - isLeftSpeaker: 0
+    text: 'Charles: You have more faith in me than I do doc.'
+  - isLeftSpeaker: 1
+    text: 'Guy:I don''t think so, I think you know you can beat this. We have gone
+      back and forth with your mood swings and I have never seen you in more control
+      of yourself than you are right now. '
+  - isLeftSpeaker: 0
+    text: Charles:...
+  - isLeftSpeaker: 1
+    text: 'Guy: You can do it, your condition might take your breath away sometimes
+      but your spirit becomes your oxygen. It might not be the most scientific diagnoses,
+      but your doctor recommends you keep your spirits higher than any pill can get
+      you '
+  LeftSpeaker: {fileID: -1786949527099824398, guid: 3c468432ef8e1984da6dd385f29ed184, type: 3}
+  RightSpeaker: {fileID: -4657035485150927444, guid: 9f086e53a2da9274cb865ce55e4a44ca, type: 3}

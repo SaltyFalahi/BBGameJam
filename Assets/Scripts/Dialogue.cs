@@ -6,17 +6,16 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
+    public bool done;
 
     [SerializeField]
-    GameObject dialogueBox, nPC1Btn, nPC2Btn, skipBtn;
+    GameObject dialogueBox, skipBtn;
 
+    [SerializeField]
     DialogueObj dialogueScriptableObj;
 
     [SerializeField]
     Image leftSpeaker, rightSpeaker;
-
-    [SerializeField]
-    List<GameObject> nPCS = new List<GameObject>();
 
     [SerializeField]
     TMP_Text diaText;
@@ -33,14 +32,6 @@ public class Dialogue : MonoBehaviour
         CloseDialogueBox();
     }
 
-    void CloseDialogueBox()
-    {
-        dialogueBox.SetActive(false);
-        diaText.text = string.Empty;
-        nPC1Btn.SetActive(true);
-        nPC2Btn.SetActive(true);
-    }
-
     public void ShowDialogue(DialogueObj dialogueObj)
     {
         dialogueBox.SetActive(true);
@@ -51,6 +42,19 @@ public class Dialogue : MonoBehaviour
     {
         leftSpeaker.sprite = dialogueScriptableObj.LeftSpeaker;
         rightSpeaker.sprite = dialogueScriptableObj.RightSpeaker;
+    }
+
+    public void Begin()
+    {
+        ShowDialogue(dialogueScriptableObj);
+        SetSpeaker();
+    }
+
+    void CloseDialogueBox()
+    {
+        dialogueBox.SetActive(false);
+        diaText.text = string.Empty;
+        done = true;
     }
 
     void ChangeSpeaker(int index)
@@ -77,29 +81,10 @@ public class Dialogue : MonoBehaviour
             index++;
 
             yield return typewriterFX.Run(dialogue.text, diaText);
-            //yield return new WaitUntil(() => Input.touchCount > 0); use this once we test on android
-            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.S));
+            yield return new WaitUntil(() => Input.touchCount > 0);
+            //yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.S));
         }
 
         CloseDialogueBox();
-    }
-
-    public void InteractWithNPC(int nPCId) //for buttons to test on PC
-    {
-        if (nPC1Btn.activeInHierarchy && nPCId == 0)
-        {
-            dialogueScriptableObj = nPCS[nPCId].GetComponent<DialogueInteractable>().myDialogueScriptableObj;
-            ShowDialogue(dialogueScriptableObj);
-            SetSpeaker();
-            nPC2Btn.SetActive(false);
-        }
-
-        if (nPC2Btn.activeInHierarchy && nPCId == 1)
-        {
-            dialogueScriptableObj = nPCS[nPCId].GetComponent<DialogueInteractable>().myDialogueScriptableObj;
-            ShowDialogue(dialogueScriptableObj);
-            SetSpeaker();
-            nPC1Btn.SetActive(false);
-        }
     }
 }
