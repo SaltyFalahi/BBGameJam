@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DisplayTimer : MonoBehaviour
 {
@@ -10,7 +11,9 @@ public class DisplayTimer : MonoBehaviour
     public float daySpeed = 5;
     
     public int hoursTimer = 0;
-    
+
+    TimeSO timeSO;
+
     float timer = 0.0f;
 
     // Start is called before the first frame update
@@ -18,6 +21,7 @@ public class DisplayTimer : MonoBehaviour
     {
         //Convert from hours to minutes
         timer = 60 * hoursTimer;
+        timer = timeSO.currentTime;
     }
 
     // Update is called once per frame
@@ -44,5 +48,7 @@ public class DisplayTimer : MonoBehaviour
     void RewindTime()
     {
         timer = 60 * hoursTimer;
+        timer = timeSO.originalTime;
+        SceneManager.LoadScene(0);
     }
 }
