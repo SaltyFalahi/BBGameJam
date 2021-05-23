@@ -36,26 +36,26 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("Speed", movement.sqrMagnitude);
 
         //Face last direction you moved in
-        if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
+        if (joystick.Horizontal > 0 || joystick.Horizontal < 0 || joystick.Vertical > 0 || joystick.Vertical < 0)
         {
-            anim.SetFloat("LastHorizontal", Input.GetAxisRaw("Horizontal"));
-            anim.SetFloat("LastVertical", Input.GetAxisRaw("Vertical"));
+            anim.SetFloat("LastHorizontal", joystick.Horizontal);
+            anim.SetFloat("LastVertical", joystick.Vertical);
         }
 
         //Rotate interactor
-        if (Input.GetAxisRaw("Horizontal") > 0)
+        if (joystick.Horizontal > 0.5f)
         {
             interactor.localRotation = Quaternion.Euler(0, 0, 90);
         }
-        if (Input.GetAxisRaw("Horizontal") < 0)
+        if (joystick.Horizontal < -0.5f)
         {
             interactor.localRotation = Quaternion.Euler(0, 0, -90);
         }
-        if (Input.GetAxisRaw("Vertical") > 0)
+        if (joystick.Vertical > 0.5f)
         {
             interactor.localRotation = Quaternion.Euler(0, 0, 180);
         }
-        if (Input.GetAxisRaw("Vertical") < 0)
+        if (joystick.Vertical < -0.5f)
         {
             interactor.localRotation = Quaternion.Euler(0, 0, 0);
         }

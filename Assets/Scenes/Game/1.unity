@@ -2446,6 +2446,7 @@ MonoBehaviour:
   anim: {fileID: 1001071134}
   dialogue: {fileID: 359444862}
   trigger: Intro
+  sceneName: 1
   timer: 3
   condition: 1
 --- !u!111 &1001071136
@@ -2493,7 +2494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8766863586795312223, guid: 7068e8bc5c59000469662aa53e6f91ac, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.94
+      value: -14.65
       objectReference: {fileID: 0}
     - target: {fileID: 8766863586795312223, guid: 7068e8bc5c59000469662aa53e6f91ac, type: 3}
       propertyPath: m_LocalPosition.z
