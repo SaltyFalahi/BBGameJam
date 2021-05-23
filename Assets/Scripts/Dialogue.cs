@@ -29,7 +29,7 @@ public class Dialogue : MonoBehaviour
     void Start()
     {
         typewriterFX = GetComponent<TypewriterFX>();
-        CloseDialogueBox();
+        //CloseDialogueBox();
     }
 
     public void ShowDialogue(DialogueObj dialogueObj)

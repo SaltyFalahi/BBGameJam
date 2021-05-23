@@ -31,7 +31,6 @@ public class CutscenePlayer : MonoBehaviour
     {
         if (condition)
         {
-            Debug.Log("Condition");
             anim.SetTrigger(trigger);
             played = true;
             condition = false;
@@ -39,7 +38,6 @@ public class CutscenePlayer : MonoBehaviour
 
         if (countdown <= 0)
         {
-            Debug.Log("Played");
             dialogue.Begin();
             played = false;
             countdown = timer;
