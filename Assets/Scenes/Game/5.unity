@@ -2286,7 +2286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 359444862}
-  sceneName: 4
+  sceneName: 6
 --- !u!1001 &1145965415
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3605,7 +3605,7 @@ PrefabInstance:
     - target: {fileID: 8810811829773188051, guid: b5cf2ae94c0d3db46bb67507f54f78c4, type: 3}
       propertyPath: dialogueScriptableObj
       value: 
-      objectReference: {fileID: 11400000, guid: 1f4328d426694da458b24b64dec25698, type: 2}
+      objectReference: {fileID: 11400000, guid: ff8a23cbc4e4cac49a1a593ac9ec5da2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5cf2ae94c0d3db46bb67507f54f78c4, type: 3}
 --- !u!114 &1950977653 stripped

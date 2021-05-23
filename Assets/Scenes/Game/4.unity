@@ -2248,6 +2248,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62520b6b3ef92b14581b10ce6119d193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1274802444 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8810811829773188051, guid: b5cf2ae94c0d3db46bb67507f54f78c4, type: 3}
+  m_PrefabInstance: {fileID: 1274802442}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 587acf9ce8d044d4bac7b241e4703ab9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1402390290
 GameObject:
   m_ObjectHideFlags: 0
@@ -2960,6 +2971,51 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9853802, y: 2.0136373}
   m_EdgeRadius: 0
+--- !u!1 &1799271143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1799271145}
+  - component: {fileID: 1799271144}
+  m_Layer: 0
+  m_Name: Cutscene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1799271144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799271143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b08c78149925a947ad49e55d3292eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 1274802444}
+  sceneName: 5
+--- !u!4 &1799271145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799271143}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.18088195, y: 0.21949032, z: -10.369299}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1869299008
 GameObject:
   m_ObjectHideFlags: 0
