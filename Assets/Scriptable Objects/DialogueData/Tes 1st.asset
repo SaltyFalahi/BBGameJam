@@ -84,5 +84,5 @@ MonoBehaviour:
       normal when you could have a chance for it to actually be normal'
   - isLeftSpeaker: 1
     text: "Guy:\n*Sigh* \nYour'e right\n...lets go"
-  LeftSpeaker: {fileID: 0}
-  RightSpeaker: {fileID: 0}
+  LeftSpeaker: {fileID: -1786949527099824398, guid: 3c468432ef8e1984da6dd385f29ed184, type: 3}
+  RightSpeaker: {fileID: 4323691606428589296, guid: 3c468432ef8e1984da6dd385f29ed184, type: 3}

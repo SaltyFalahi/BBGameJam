@@ -25,5 +25,5 @@ MonoBehaviour:
     text: "Lola: \nIt\u2019s Jamie\u2026 He's acting up again...\r\n"
   - isLeftSpeaker: 0
     text: 
-  LeftSpeaker: {fileID: 0}
-  RightSpeaker: {fileID: 0}
+  LeftSpeaker: {fileID: -1786949527099824398, guid: 3c468432ef8e1984da6dd385f29ed184, type: 3}
+  RightSpeaker: {fileID: -6302638772229925227, guid: 534aeeba535175744a8d4dfe6283fb2e, type: 3}
