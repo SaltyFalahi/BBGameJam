@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b456e35a5826b54f9f921a006b0210b, type: 3}
+  m_Name: THE DECISION 1
+  m_EditorClassIdentifier: 
+  dialogueArr:
+  - isLeftSpeaker: 0
+    text: "Lola: \nGuy! \r"
+  - isLeftSpeaker: 0
+    text: "Guy: \nNot now Lola i have to get to my wife i think she\u2019s in labour\r\n"
+  - isLeftSpeaker: 0
+    text: "Lola:\n Sir I don't think this can wait ...\r\n"
+  - isLeftSpeaker: 0
+    text: "Guy:\n What is it? What's so important that can't wait\r\n"
+  - isLeftSpeaker: 0
+    text: "Lola: \nIt\u2019s Jamie\u2026 He's acting up again...\r\n"
+  - isLeftSpeaker: 0
+    text: 
+  LeftSpeaker: {fileID: 0}
+  RightSpeaker: {fileID: 0}
