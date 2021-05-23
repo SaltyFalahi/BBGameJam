@@ -13,8 +13,6 @@ public class DisplayTimer : MonoBehaviour
     
     float timer = 0.0f;
 
-    bool isTimer = false;
-
     // Start is called before the first frame update
     void Start()
     {

@@ -7,6 +7,8 @@ public class Interactable : MonoBehaviour
 {
     public bool interacting;
 
+    Interactor interactor;
+
     //Called by the interact button
     public void Interact()
     {
@@ -17,7 +19,24 @@ public class Interactable : MonoBehaviour
     //interacting needs to be set to false in the end
     public virtual void InteractAction()
     {
-        Debug.Log("Working");
         interacting = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Interactor"))
+        {
+            interactor = collision.GetComponent<Interactor>();
+            interactor.GetInteractable(this);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Interactor"))
+        {
+            interactor.RemoveInteractable();
+            interactor = null;
+        }
     }
 }

@@ -6,16 +6,21 @@ public class Interactor : MonoBehaviour
 {
     Interactable interactable;
 
-    void OnTriggerStay2D(Collider2D collision)
+    public void Interact()
     {
-        if (collision.CompareTag("Interactable"))
+        if (interactable)
         {
-            interactable = collision.GetComponent<Interactable>();
-
-            if (interactable.interacting)
-            {
-                interactable.InteractAction();
-            }
+            interactable.InteractAction();
         }
+    }
+
+    public void GetInteractable(Interactable inter)
+    {
+        interactable = inter;
+    }
+
+    public void RemoveInteractable()
+    {
+        interactable = null;
     }
 }

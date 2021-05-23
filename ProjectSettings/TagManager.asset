@@ -5,14 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Interactable
+  - Interactor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - NPC
   - Water
   - UI
-  - 
+  - Objects
   - 
   - 
   - 
