@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b456e35a5826b54f9f921a006b0210b, type: 3}
+  m_Name: Tes 1st
+  m_EditorClassIdentifier: 
+  dialogueArr:
+  - isLeftSpeaker: 0
+    text: "Tes: \nYou changed your appointment?\r"
+  - isLeftSpeaker: 1
+    text: "Guy: \nI did, I have more important matters to deal with\r right now\n"
+  - isLeftSpeaker: 0
+    text: "Tes: \nAre you insane? Do you realize you're not dealing with the common
+      cold, it does not just go away in a day."
+  - isLeftSpeaker: 1
+    text: "Guy: \nNo, I'm not dealing with the common cold\nI'm dealing with cancer"
+  - isLeftSpeaker: 1
+    text: 'Guy:
+
+      I''m dealing with cancer, and I''m dealing with 50 other mental
+      health issues you can come up with'
+  - isLeftSpeaker: 1
+    text: "Guy:\n I have patients that need me."
+  - isLeftSpeaker: 0
+    text: "Tes: \nOh really, and what about my patients Guy? "
+  - isLeftSpeaker: 0
+    text: 'Tes:
+
+      And i''m not talking about my ability to wait
+
+      I''m
+      talking about the other cancer patients I have who would kill to have taken
+      up your time slot.'
+  - isLeftSpeaker: 0
+    text: "Tes:\nThese people are at the edge of their life \nINCLUDING you \nand
+      you choose to play games about it. "
+  - isLeftSpeaker: 1
+    text: "Guy: \nGames? \nThis is not a game, that's the whole problem Tina "
+  - isLeftSpeaker: 1
+    text: "Guy:\nI have a lot of people depending on me NOW\u2026"
+  - isLeftSpeaker: 0
+    text: "Tes: \n\u2026 and how do you think they'll feel when you're gone"
+  - isLeftSpeaker: 0
+    text: "Tes:\n\u2026 your patients, your friends and more importantly your family\u2026
+      the wife...the child you have coming."
+  - isLeftSpeaker: 0
+    text: 'Tes:
+
+      You''re not even giving them a chance to realize what time
+      you have is limited. Anything they want to do with you won''t matter anymore...like
+      starting a family'
+  - isLeftSpeaker: 1
+    text: "Guy: \nThat's not fair...\n I know it's limited, i feel it more than anybody\n\u2026
+      but that's exactly why i don't want to tell anybody."
+  - isLeftSpeaker: 1
+    text: "Guy:\n i want to have a good time and use my energy in the right area
+      as much as possible."
+  - isLeftSpeaker: 0
+    text: "Tes:   \nYour putting a lot of people at risk of being hurt while you
+      do that "
+  - isLeftSpeaker: 0
+    text: "Tes:   \nLook, as your best friend i know i would hate not knowing \nFeeling
+      like all the things i wanted to do with you in my life... stuff i could have
+      done if i had known..."
+  - isLeftSpeaker: 0
+    text: "Tes:   \nthat has been taken from me. "
+  - isLeftSpeaker: 0
+    text: 'Tes:
+
+      I''d feel like a shit friend for not even realizing it on
+      my own. '
+  - isLeftSpeaker: 0
+    text: 'Tes:
+
+      Don''t shorten your time span over your stubborn need to be
+      normal when you could have a chance for it to actually be normal'
+  - isLeftSpeaker: 1
+    text: "Guy:\n*Sigh* \nYour'e right\n...lets go"
+  LeftSpeaker: {fileID: 0}
+  RightSpeaker: {fileID: 0}

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b456e35a5826b54f9f921a006b0210b, type: 3}
+  m_Name: Scene 1
+  m_EditorClassIdentifier: 
+  dialogueArr:
+  - isLeftSpeaker: 0
+    text: 'Lola:
+
+      We have a patient who''s having trouble breathing, non-stop
+      coughs with phlegm, fever. '
+  - isLeftSpeaker: 1
+    text: 'Guy:
+
+      All those symptoms sound like pneumonia. We should get Dr.
+      Schwartz ,we need a blood test and a chest x-ray and I want the results for
+      this asap. '
+  - isLeftSpeaker: 0
+    text: 'Lola:
+
+      Yes,sir  and also you are needed in room 6 for a patient
+      who is 16 who has had heart arrhythmia and we need to discuss the next step
+      with him and his family. '
+  - isLeftSpeaker: 1
+    text: "Guy: \nAlright please get his parents no the phone for me asking them
+      to come to the hospital, ill take care of the kid"
+  - isLeftSpeaker: 0
+    text: 'Lola:
+
+      Yes sir'
+  LeftSpeaker: {fileID: 21300000, guid: b624b089b487e86459830995277cbb87, type: 3}
+  RightSpeaker: {fileID: 21300000, guid: d37c2c412c7ee594dae909cf5f36fa8d, type: 3}
