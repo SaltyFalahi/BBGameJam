@@ -269,7 +269,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 9
   m_Sprite: {fileID: -1786949527099824398, guid: 3c468432ef8e1984da6dd385f29ed184, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -446,7 +446,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458397048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.662, y: -3.5, z: -1.963967}
+  m_LocalPosition: {x: 3.18, y: -3.5, z: -1.963967}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1869299009}
@@ -1695,7 +1695,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937881736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.56, y: -3.5, z: -2.10039}
+  m_LocalPosition: {x: 0.56, y: -4, z: -2.10039}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 193802419}
@@ -2215,6 +2215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4640579194853188319, guid: b5cf2ae94c0d3db46bb67507f54f78c4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7687783529922959405, guid: b5cf2ae94c0d3db46bb67507f54f78c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2225,8 +2229,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7687783531733984135, guid: b5cf2ae94c0d3db46bb67507f54f78c4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8810811829773188051, guid: b5cf2ae94c0d3db46bb67507f54f78c4, type: 3}
+      propertyPath: dialogueScriptableObj
+      value: 
+      objectReference: {fileID: 11400000, guid: df4480aa55af22340b1ebaf7ea010e4c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5cf2ae94c0d3db46bb67507f54f78c4, type: 3}
 --- !u!114 &1274802443 stripped
@@ -3023,7 +3031,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 9
   m_Sprite: {fileID: 4323691606428589296, guid: 3c468432ef8e1984da6dd385f29ed184, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
