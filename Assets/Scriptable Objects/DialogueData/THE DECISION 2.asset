@@ -87,5 +87,5 @@ MonoBehaviour:
     text: 'Guy:
 
       NO!'
-  LeftSpeaker: {fileID: 0}
-  RightSpeaker: {fileID: 0}
+  LeftSpeaker: {fileID: -1786949527099824398, guid: 3c468432ef8e1984da6dd385f29ed184, type: 3}
+  RightSpeaker: {fileID: -880868186434942258, guid: 083dbdcfefc18d04f877fcce22c26c64, type: 3}
